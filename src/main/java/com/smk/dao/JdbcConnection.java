@@ -10,7 +10,7 @@ public class JdbcConnection {
 
     public static Optional<Connection> getConnection() {
         if(connection.isEmpty()){
-            String url = "jdbc:postgresql://localhost:5432/FlightBooking";
+            String url = "jdbc:postgresql://localhost:5434/FlightBooking";
             String user = "FlightBooking";
             String password = "Fl19ht800k1n9";
             try {

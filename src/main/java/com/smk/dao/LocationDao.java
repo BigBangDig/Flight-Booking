@@ -46,7 +46,7 @@ public class LocationDao implements Dao<Location, Integer>{
     }
 
     @Override
-    public Optional<Location> save(Location location) {
+    public Optional<Integer> save(Location location) {
         return Optional.empty();
     }
 
